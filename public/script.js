@@ -2,7 +2,7 @@ function countryInfo(named, cap, popu, conti, flag, fact, city) {
     this.name = named;
     this.capital = cap;
     this.population = popu;
-    this.continent = conti;
+    this.continent = conti;   
     this.flag = flag;
     this.funFact = fact;
     this.city = city;
@@ -28,7 +28,6 @@ function countryInfo(named, cap, popu, conti, flag, fact, city) {
         console.log(`${this.name}`)
     };
 }
-
 // let img =`<img src="img/rain.jpg" />`
 let Country = new countryInfo("Nigeria", "Abuja", "213.4 million", "Africa", `<img src="img/NGA.jpg" / width="30">`, "Over 500 indegenious languages are spoken in nigeria", `img/nigeriaC.jpg`)
 let Country1 = new countryInfo("Ghana", "Accra", '32.83million', "Africa", `<img src="img/Ghana.jpg" / width="30">`, "The second-largest producer of gold in Africa", `img/accral.jpg`)
@@ -43,7 +42,7 @@ let Country9 = new countryInfo("Liberia", "Monrovia", "5.193 million", "Africa",
 let Country10 = new countryInfo("Burkina Faso", "Wagadugu", "22.1 million", "Africa",  `<img src="img/burkinafaso.png" / width="30">`, `Burkina Faso means "land of honest men`, `img/burkinac.jpg`)
 let Country11 = new countryInfo("Guinea bissau", "Bissau", "2.06 million", "Africa", `<img src="img/gunea-busau.png" / width="30">`, "Guinea has a long and turbulent history", `img/bisauc.png`)
 let Country12 = new countryInfo("Sierra Leone", "Freetown", "8.421 million", "Africa", `<img src="img/sierraleone.jpg" / width="30">`, "It was home to freed slaves in the 18th century", `img/sieraC.jpg`)
-let Country13 = new countryInfo("Cabo verde", "Praia", 587,925, "Africa",  `<img src="img/cabo-verde.png" / width="30">`, "Cape Verde is the third largest nesting site for loggerhead turtles", `img/capeverdC.webp`)
+let Country13 = new countryInfo("Cabo verde", "Praia", 587925, "Africa",  `<img src="img/cabo-verde.png" / width="30">`, "Cape Verde is the third largest nesting site for loggerhead turtles", `img/capeverdC.webp`)
 let Country14 = new countryInfo("Mauritania", "Nouakchott", "4.615 million", "Africa", `<img src="img/mauritanoia.jpg" / width="30">`, "Mauritania is the last country to abolish slavery", `img/mauritania.webp`)
 let Country15 = new countryInfo("Egypt", "Cairo", "109.3 million", "Africa",  `<img src="img/egypt.png" / width="30">`, "Egypt is home to the only Remaining Ancient Wonder in the World", `img/egyptc.jpg`)
 let Country16 = new countryInfo("Chad", `N'Djamena`, `17.18 million`, "Africa",  `<img src="img/chad.jpg" / width="30">`, "Chad is the fifth largest country in Africa and the 20th largest country in the word", `img/chadc.png`)
